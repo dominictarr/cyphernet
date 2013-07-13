@@ -27,6 +27,8 @@ commits link to a tree and a previous commit (unless it's the first version)
 
 In couchdb - each document links to the previous version of that document.
 
+[camlistore](http://camlistore.org/) implements much of this idea!
+
 the cypherlink has some interesting properties:
 
 * cypherlinks are immutable - if you "update" a document, it's now a different document.
