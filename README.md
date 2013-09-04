@@ -37,7 +37,7 @@ So theirfore, cypherlinks always point backwards in time, to things that
 already existsed before the document that they are contained within
 was created.
 
-### Immutablility, Security, Distributablity.
+### Immutability, Security, Distributability.
 
 Since every object is referenced by it's hash, it's impossible to change (immutable).
 If any one changed a piece of data, then it would change the hash.
