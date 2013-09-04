@@ -33,11 +33,11 @@ It is not possible for a cycle to form within a graph, unless there is a hash co
 
 You cannot create a hash, and then the object that produces the hash.
 Instead, you must have the object, and then hash it.
-So theirfore, cypherlinks always point backwards in time, to things that
-already existsed before the document that they are contained within
+Therefore cypherlinks always point backwards in time to things that
+already existed before the document that they are contained within
 was created.
 
-### Immutablility, Security, Distributablity.
+### Immutablility, Security, Distributability.
 
 Since every object is referenced by it's hash, it's impossible to change (immutable).
 If any one changed a piece of data, then it would change the hash.
@@ -62,7 +62,7 @@ However, how to track peers, and initiate connections is out of scope of this pr
 cyphernet is focusing on datastructures, security, and replication.
 Network topology is another problem. There are other projects that
 deal with creating connections between remote peers.
-[peerjs](http://peerjs.com) and [ZeroTierOne](https://www.zerotier.com/)
+[peerjs](http://peerjs.com), [cjdns](https://github.com/cjdelisle/cjdns) and [ZeroTierOne](https://www.zerotier.com/)
 
 
 ### Defining a subset to replicate
