@@ -51,7 +51,7 @@ I wrote a [module for that](https://github.com/dominictarr/level-merkle) last we
 
 ## the new idea
 
-All data is stored in the same "bucket", immutable, and addressed my it's hash.
+All data is stored in the same "bucket", immutable, and addressed by it's hash.
 
 ### Query by Searching
 
