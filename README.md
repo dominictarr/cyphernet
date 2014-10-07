@@ -51,7 +51,7 @@ But in a cyphernet, you use cryptographic hashes to authorise the _documents_,
 but it is not necessary to authorize the connection.
 
 This is rather like "authenticating" your friends by the sound of their voice,
-not just becasue the call has come from the correct phone number. You can still verify
+not just because the call has come from the correct phone number. You can still verify
 your friends identity if they call from a different phone, or even if you see them in person.
 
 ### Replication Partners
